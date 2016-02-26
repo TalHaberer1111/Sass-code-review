@@ -2,6 +2,12 @@
 // Global Imports
 // ==========================================================================
 
+
+
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
+
 .navbar ul {
   position: fixed;
   display: block;
@@ -19,7 +25,50 @@
 }
 
 
+@media (max-width: 620px) {
+.resorts,
+.tips {
+  float: none;
+  width: 100%;
+  p {
+    display: none;
+  }
+  h3 {
+    font-size: 14px;
+  }
+}
+.primary-content {
+  font-size: 12px;
+}
 
-@import 'base/index';
-@import 'layout/index';
-@import 'components/index';
+.wildlife {
+  font-size: 12px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.column3 {
+  li {
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 25px;
+ }
+ a {
+   font-size: 10px;
+ }
+ p {
+   font-size: 12px;
+ }
+ .two {
+   display: none;
+ }
+ h2 {
+   font-size: 30px;
+   margin: 5px;
+ }
+}
+
+img.one{
+  padding-top: 5px;
+}
+
+}

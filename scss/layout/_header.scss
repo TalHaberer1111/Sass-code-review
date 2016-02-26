@@ -1,9 +1,10 @@
 .main-header {
   @extend %centered;
   padding-top: 170px;
-  height: 850px;
+  height: 550px;
   background: linear-gradient($color-prim, transparent 90%),
-              linear-gradient(0deg, $color-body, transparent),
+              linear-gradient(0deg, $color-body, transparent 20%),
               $color-prim url('../img/louis.jpg') no-repeat center;
   background-size: cover;
+  margin-bottom: 50px;
 }

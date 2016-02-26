@@ -1,6 +1,11 @@
 .main-footer {
   @extend %centered;
+  clear:both;
+  color: white;
+  font-size: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid $color-border-dark;
+  background: linear-gradient(#191c7f, transparent 90%), linear-gradient(0deg, #fff, transparent), #191c7f url("../img/louis.jpg") no-repeat center;
+  background-size: cover;
 }
