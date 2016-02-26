@@ -5,11 +5,11 @@ $black          : #000;
 $grey           : #878787;
 $regent-st-blue : #add8e6;
 $river-bed      : #48525c;
-$yellow-orange  : #ffa949;
+$blue-shade  : #191c7f;
 
 // Functional color variables
 
-$color-prim         : $yellow-orange;
+$color-prim         : $blue-shade;
 $color-sec          : $river-bed;
 
 $color-text-light   : $white;
@@ -17,9 +17,9 @@ $color-text-base    : $grey;
 $color-text-dark    : $river-bed;
 
 $color-border-light : lighten($grey, 35%);
-$color-border-dark  : $yellow-orange;
+$color-border-dark  : $blue-shade;
 
-$color-link-default : $yellow-orange;
+$color-link-default : $blue-shade;
 $color-link-visited : $regent-st-blue;
 
 $color-shadow       : rgba($black,.8);
@@ -40,14 +40,7 @@ $br: 10px;
 $path-img  : '../img';
 $path-font : '../fonts';
 
+// media queries breakpoints
 
-
-
-
-
-
-
-
-
-
-
+$brk-narrow: '(max-width: 768px)';
+$brk-wide: '(max-width: 1024px)';

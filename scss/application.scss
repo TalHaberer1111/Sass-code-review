@@ -2,6 +2,24 @@
 // Global Imports
 // ==========================================================================
 
+.navbar ul {
+  position: fixed;
+  display: block;
+  background: linear-gradient(#e56e6e, transparent 100%), linear-gradient(0deg, #705151, transparent 100%);
+  height: 120px;
+  margin-top: -10px;
+  border-bottom: 2px solid black;
+  width: 100%; }
+
+.navbar img {
+  width: 55px;
+  height: auto;
+  /*margin-left: -20px;*/
+  padding-top: 40px;
+}
+
+
+
 @import 'base/index';
 @import 'layout/index';
 @import 'components/index';
