@@ -64,8 +64,7 @@ a:hover {
   background-size: cover; }
 
 .primary-content {
-  padding-top: 25px;
-  padding-bottom: 95px; }
+  padding-bottom: 10px; }
 
 .secondary-content {
   padding-top: 80px;
@@ -93,7 +92,7 @@ div.column3 {
   width: 33%;
   border-right: 1px solid red;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 80px; }
   div.column3 img {
     width: 40%;
     margin-left: 10px;
@@ -129,6 +128,10 @@ div.column3 {
     font-weight: bold; }
   .fun p {
     font-size: 20px !important; }
+
+.sun {
+  background: linear-gradient(white, transparent 10%), linear-gradient(0deg, #fff, transparent), #191c7f url("../img/citymuseum.jpg") no-repeat center;
+  background-size: cover; }
 
 .main-footer a {
   color: white;
