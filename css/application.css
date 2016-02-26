@@ -165,4 +165,17 @@ a:hover {
     float: none;
     width: 100%;
 }
+
+.primary-content {
+  font-size: 12px;
+}
+
+.main-heading {
+  font-size: 50px;
+}
+
+/*.main-header {
+  padding-top: -100px;
+}*/
+
 }
