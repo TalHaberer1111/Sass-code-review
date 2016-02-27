@@ -13,9 +13,7 @@
   padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid $color-border-light;
-  h3 {
-    text-align: center;
-  }
+  text-align: center;
 }
 
 .wildlife {
@@ -91,6 +89,18 @@ h2{
 .sun {
   background: linear-gradient( white ,transparent 10%), linear-gradient(0deg, #fff, transparent), #191c7f url("../img/citymuseum.jpg") no-repeat center;
   background-size: cover;
+}
+
+.poke {
+  background: linear-gradient( white ,transparent 10%), linear-gradient(0deg, #fff, transparent), #191c7f url("../img/pic1.jpg") no-repeat center;
+  background-size: cover;
+  color: black;
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px blue;
+  }
+
 }
 
 .main-footer a {
